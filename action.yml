@@ -1,0 +1,6 @@
+name: Merge Conflict Warning
+description: Warns if merging a PR will create merge conflicts in another PR
+author: Darcy McCoy
+runs:
+  using: node24
+  main: dist/index.js
